@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Handlee|Heebo|Lobster|Oxygen|Pacifico|Playball|Roboto|Roboto+Condensed|Source+Sans+Pro|Yellowtail&display=swap');
+
+:root {
+    --Handlee: "Handlee", cursive;
+    --Heebo: "Heebo", cursive;
+    --Lobster: "Lobster", cursive;
+    --Oxygen: "Oxygen", cursive;
+    --Pacifico: "Pacifico", cursive;
+    --Playball: "Playball", cursive;
+    --Roboto: "Roboto", cursive;
+    --Source-sans-pro: "Source+Sans+Pro";
+}
+
+header,
+section {
+    overflow: hidden;
+}
+
+header .btn {
+    background: #D3396B;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-family: 'Libre Franklin';
+    text-align: center;
+    margin-left: -350px;
+}
+
+.navbar {
+    background: #D3396B;
+    font-family: 'Righteous';
+}
+
+.navbar-brand {
+    color: #D3396B;
+    font-size: 30px;
+}
+
+.navbar-brand:hover {
+    color: #ff9933;
+}
+
+.nav-link {
+    color: #D3396B;
+    font-family: 'Libre Franklin';
+}
+
+.nav-link:hover {
+    color: #ff9933;
+}
