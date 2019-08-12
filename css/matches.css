@@ -6,7 +6,6 @@
     --Lobster: "Lobster", cursive;
     --Oxygen: "Oxygen", cursive;
     --Pacifico: "Pacifico", cursive;
-    --Playball: "Playball", cursive;
     --Roboto: "Roboto", cursive;
     --Source-sans-pro: "Source+Sans+Pro";
 }
@@ -49,31 +48,39 @@ header .btn {
     color: #ff9933;
 }
 
+header h1 {
+    color: #D3396B;
+    margin: 35px 0 0 0;
+}
+
 /*End of Header*/
 
 /*Start of Section-1*/
 .section-1 {
-    height: 500px;
-    margin: 35px 0 0 0;
-}
-
-.section-1 label {
-    font-family: Helvetica;
+    margin: 35px 0 35px 0;
 }
 
 .section-1 h1 {
     color: #D3396B;
 }
 
-#bday {
-    border-radius: 5px;
-    margin-left: 15px;
+.section-1 a {
+    color: #ff9933;
+    font-family: Helvetica;
+    font-size: 0.8rem;
 }
 
-#submit {
-    background-color: rgba(211, 57, 107, 1);
-    color: white;
-    width: 300px;
+.section-1 a:hover {
+    color: #D3396B;
+}
+
+
+.card {
+    color: #D3396B;
+}
+
+.section-1 i {
+    font-size: 18px;
 }
 
 /*End of Section-1*/
@@ -106,3 +113,27 @@ footer .column a i+i {
 }
 
 /*End of Footer*/
+
+@media only screen and (min-width: 600px) {
+    .card {
+        width: 100px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .card {
+        width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .card {
+        width: 10rem;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .card {
+        width: 17rem;
+    }
+}

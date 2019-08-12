@@ -18,6 +18,13 @@ footer {
 }
 
 /*Start of header*/
+header {
+    background-image: url("../assets/images/imageedit_2_2239117577.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
 header .btn {
     border-radius: 10px;
     color: whitesmoke;
@@ -27,7 +34,7 @@ header .btn {
 }
 
 .navbar {
-    background-color: rgba(211, 57, 107, 1);
+    background-color: rgba(211, 57, 107, 0);
     font-family: 'Righteous';
 }
 
@@ -51,29 +58,18 @@ header .btn {
 
 /*End of Header*/
 
-/*Start of Section-1*/
 .section-1 {
-    height: 500px;
+    height: 400px;
     margin: 35px 0 0 0;
-}
-
-.section-1 label {
-    font-family: Helvetica;
 }
 
 .section-1 h1 {
     color: #D3396B;
 }
 
-#bday {
-    border-radius: 5px;
-    margin-left: 15px;
-}
-
-#submit {
-    background-color: rgba(211, 57, 107, 1);
-    color: white;
-    width: 300px;
+.section-1 p {
+    font-family: 'Helvetica';
+    font-size: 18px;
 }
 
 /*End of Section-1*/
@@ -106,3 +102,15 @@ footer .column a i+i {
 }
 
 /*End of Footer*/
+
+@media only screen and (max-width: 600px) {
+    .section-1 p {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .section-1 p {
+        font-size: 16px;
+    }
+}

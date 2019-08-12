@@ -6,7 +6,6 @@
     --Lobster: "Lobster", cursive;
     --Oxygen: "Oxygen", cursive;
     --Pacifico: "Pacifico", cursive;
-    --Playball: "Playball", cursive;
     --Roboto: "Roboto", cursive;
     --Source-sans-pro: "Source+Sans+Pro";
 }
@@ -49,34 +48,37 @@ header .btn {
     color: #ff9933;
 }
 
-/*End of Header*/
-
-/*Start of Section-1*/
-.section-1 {
-    height: 500px;
+header h1 {
+    color: #D3396B;
     margin: 35px 0 0 0;
 }
 
-.section-1 label {
-    font-family: Helvetica;
+/*End of Header*/
+
+/*Start of Section-1*/
+.card {
+    height: 175px;
 }
 
-.section-1 h1 {
+.section-1 a {
     color: #D3396B;
 }
 
-#bday {
-    border-radius: 5px;
-    margin-left: 15px;
-}
-
-#submit {
-    background-color: rgba(211, 57, 107, 1);
-    color: white;
-    width: 300px;
+.section-1 a {
+    color: #ff9933;
 }
 
 /*End of Section-1*/
+
+/*Start of Section-2*/
+#save {
+    background-color: #ff9933;
+    border-color: #ff9933;
+    border-radius: 5px;
+    color: white;
+}
+
+/*End of Section-2*/
 
 /*Start of Footer*/
 footer {
@@ -106,3 +108,15 @@ footer .column a i+i {
 }
 
 /*End of Footer*/
+
+@media only screen and (max-width: 600px) {
+    .section-1 p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .section-1 p {
+        font-size: 14px;
+    }
+}

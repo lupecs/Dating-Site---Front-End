@@ -2,9 +2,7 @@
 
 :root {
     --Handlee: "Handlee", cursive;
-    --Heebo: "Heebo", cursive;
     --Lobster: "Lobster", cursive;
-    --Oxygen: "Oxygen", cursive;
     --Pacifico: "Pacifico", cursive;
     --Playball: "Playball", cursive;
     --Roboto: "Roboto", cursive;
@@ -18,16 +16,15 @@ header {
 }
 
 header,
-section {
+section,
+footer {
     overflow: hidden;
 }
 
 header .btn {
     background: #D3396B;
-    border-radius: 10px;
     color: whitesmoke;
     font-family: 'Libre Franklin';
-    text-align: center;
     margin-left: -350px;
 }
 
@@ -41,7 +38,7 @@ header .btn {
     font-size: 30px;
 }
 
-.navbar-brand:hover{
+.navbar-brand:hover {
     color: whitesmoke;
 }
 
@@ -60,25 +57,15 @@ header .btn:hover {
 
 header h2 {
     color: #D3396B;
-    font-family: 'Libre Franklin';
+    font-family: 'Righteous';
     font-size: 50px;
     padding-left: 25px;
     padding-top: 150px;
-    text-align: left;
-}
-
-.h-section {
-    overflow-x: hidden;
-}
-
-.section-1 {
-    padding: 20px 0 20px 0;
 }
 
 .section-1 .card {
     border: 2px solid #D3396B;
-    border-radius: 15px;
-    height: 40vmin;
+    height: 20vmin;
 }
 
 
@@ -89,50 +76,60 @@ header h2 {
 }
 
 .section-1 .card-text {
-    font-family: 'Calibri';
+    font-family: Helvetica, Arial;
 }
 
-.card-text p {
-    font-family: 'Righteous';
+#cc1 {
+    margin: 0 90px 500px 90px;
+}
+
+#cc2 {
+    margin: 0 -150px 350px 400px;
+    padding: 0 0 0 -50px;
+}
+
+#cc3 {
+    margin: 0 400px 375px -150px;
 }
 
 .section-3 {
     background: linear-gradient(to top right, #d3396b 40%, #ff9933 80%);
-    color: white;
 }
 
 .section-3 h2 {
     font-family: var(--Lobster);
-    margin-top: 4vmin;
+}
+
+.section-3 .card {
+    height: 40vmin;
 }
 
 .section-3 .card img {
-    border-radius: 350px;
-    width: 75%;
+    width: 65%;
 }
 
 .section-3 .card-title {
     color: #D3396B;
     font-family: 'Libre Franklin';
-    text-align: center;
 }
 
 .section-3 .card-text {
     color: #ff9933;
 }
 
-.card a{
+.card a {
     color: #D3396B;
 }
 
-.card a:hover {
-    text-shadow: #fe721e;
-    text-decoration: none;
-}
-
+/*Start of Footer*/
 footer {
     background: #ff9933;
+    height: 150px;
     overflow-x: hidden;
+}
+
+#c1 {
+    margin-left: 15px;
 }
 
 footer h6 {
@@ -149,4 +146,114 @@ footer h4 a {
 
 footer .column a i+i {
     padding: 0 0.5em;
+}
+
+/*End of Footer*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    header {
+        background-position: center top;
+    }
+
+    header .btn {
+        background: #D3396B;
+        color: whitesmoke;
+        font-family: 'Libre Franklin';
+        margin-left: -30px;
+    }
+
+    .section-1 .card {
+        height: 25vmin;
+        margin-top: 15px;
+    }
+
+    .section-3 .card img {
+        width: 35%;
+    }
+
+    .section-3 .card {
+        height: 55vmin;
+        margin-bottom: 15px;
+    }
+
+    .section-3 .card-title {
+        font-size: 24px;
+    }
+
+    .section-3 .card-text {
+        font-size: 16px;
+    }
+
+    footer {
+        height: 200px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    header {
+        background-position: center top;
+    }
+
+    .section-1 .card {
+        height: 20vmin;
+        margin-top: 15px;
+    }
+
+    .section-3 .card img {
+        width: 45%;
+    }
+
+    .section-3 .card {
+        height: 55vmin;
+        margin-bottom: 15px;
+    }
+
+    .section-3 .card-title {
+        font-size: 20px;
+    }
+
+    .section-3 .card-text {
+        font-size: 15px;
+    }
+
+    footer {
+        height: 300px;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #cc1 {
+        margin: 0 80px 400px 80px;
+    }
+
+    #cc2 {
+        margin: 0 -100px 250px 300px;
+        padding: 0 0 0 -50px;
+    }
+
+    #cc3 {
+        margin: 0 300px 275px -100px;
+    }
+
+    .section-3 .card img {
+        width: 65%;
+    }
+
+    .section-3 .card {
+        height: 50vmin;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .section-3 .card img {
+        width: 55%;
+    }
+
+    .section-3 .card {
+        height: 50vmin;
+    }
 }

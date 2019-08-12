@@ -6,7 +6,6 @@
     --Lobster: "Lobster", cursive;
     --Oxygen: "Oxygen", cursive;
     --Pacifico: "Pacifico", cursive;
-    --Playball: "Playball", cursive;
     --Roboto: "Roboto", cursive;
     --Source-sans-pro: "Source+Sans+Pro";
 }
@@ -49,34 +48,30 @@ header .btn {
     color: #ff9933;
 }
 
-/*End of Header*/
-
-/*Start of Section-1*/
-.section-1 {
-    height: 500px;
+header h1 {
+    color: #D3396B;
     margin: 35px 0 0 0;
 }
 
-.section-1 label {
-    font-family: Helvetica;
+/*End of Header*/
+.section-1 {
+    margin-bottom: 35px;
+    margin-top: 35px;
 }
 
-.section-1 h1 {
+.section-1 a {
     color: #D3396B;
 }
 
-#bday {
-    border-radius: 5px;
-    margin-left: 15px;
+.section-1 a:hover {
+    color: #ff9933;
 }
 
-#submit {
-    background-color: rgba(211, 57, 107, 1);
+#save {
+    background-color: #D3396B;
+    border-color: #D3396B;
     color: white;
-    width: 300px;
 }
-
-/*End of Section-1*/
 
 /*Start of Footer*/
 footer {

@@ -53,27 +53,16 @@ header .btn {
 
 /*Start of Section-1*/
 .section-1 {
-    height: 500px;
-    margin: 35px 0 0 0;
-}
-
-.section-1 label {
-    font-family: Helvetica;
+    margin: 35px 0 35px 0;
 }
 
 .section-1 h1 {
     color: #D3396B;
 }
 
-#bday {
-    border-radius: 5px;
-    margin-left: 15px;
-}
-
-#submit {
-    background-color: rgba(211, 57, 107, 1);
-    color: white;
-    width: 300px;
+.section-1 p {
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 150px 0 150px;
 }
 
 /*End of Section-1*/

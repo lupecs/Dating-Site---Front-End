@@ -12,7 +12,6 @@
 }
 
 header,
-section,
 footer {
     overflow: hidden;
 }
@@ -53,27 +52,45 @@ header .btn {
 
 /*Start of Section-1*/
 .section-1 {
+    background-image: url("../assets/images/backlit-couple-girl-1247746.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
-    margin: 35px 0 0 0;
-}
-
-.section-1 label {
-    font-family: Helvetica;
 }
 
 .section-1 h1 {
     color: #D3396B;
+    font-family: 'Libre Franklin';
+    padding-top: 40px;
 }
 
-#bday {
+#email {
+    margin-top: 35px;
+}
+
+.section-1 input {
+    border-color: #D3396B;
     border-radius: 5px;
-    margin-left: 15px;
+    height: 6vmin;
+    margin-top: 5px;
+    width: 45vmin;
 }
 
-#submit {
-    background-color: rgba(211, 57, 107, 1);
+#login {
+    background-color: #D3396B;
     color: white;
-    width: 300px;
+    font-family: 'Libre Franklin';
+}
+
+.section-1 a {
+    color: white;
+    font-size: 20px;
+}
+
+.section-1 a:hover {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 /*End of Section-1*/

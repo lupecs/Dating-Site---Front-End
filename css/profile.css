@@ -49,31 +49,24 @@ header .btn {
     color: #ff9933;
 }
 
+header h1 {
+    color: #D3396B;
+    margin: 35px 0 35px 0;
+}
+
 /*End of Header*/
 
 /*Start of Section-1*/
 .section-1 {
-    height: 500px;
-    margin: 35px 0 0 0;
+    margin-bottom: 35px;
 }
 
-.section-1 label {
-    font-family: Helvetica;
-}
-
-.section-1 h1 {
+.section-1 a {
     color: #D3396B;
 }
 
-#bday {
-    border-radius: 5px;
-    margin-left: 15px;
-}
-
-#submit {
-    background-color: rgba(211, 57, 107, 1);
-    color: white;
-    width: 300px;
+.section-1 a:hover {
+    color: #ff9933;
 }
 
 /*End of Section-1*/
@@ -106,3 +99,9 @@ footer .column a i+i {
 }
 
 /*End of Footer*/
+
+@media only screen and (min-width: 600px) {
+    #about {
+        padding-left: 100px;
+    }
+}

@@ -6,7 +6,6 @@
     --Lobster: "Lobster", cursive;
     --Oxygen: "Oxygen", cursive;
     --Pacifico: "Pacifico", cursive;
-    --Playball: "Playball", cursive;
     --Roboto: "Roboto", cursive;
     --Source-sans-pro: "Source+Sans+Pro";
 }
@@ -49,32 +48,56 @@ header .btn {
     color: #ff9933;
 }
 
+header h1 {
+    color: #D3396B;
+    margin: 35px 0 0 0;
+}
+
 /*End of Header*/
 
 /*Start of Section-1*/
 .section-1 {
-    height: 500px;
-    margin: 35px 0 0 0;
+    margin: 35px 0 35px 0;
 }
 
-.section-1 label {
-    font-family: Helvetica;
+.section-1 i {
+    color: lightgray;
+    font-size: 18px;
 }
 
-.section-1 h1 {
+.section-1 i:hover {
     color: #D3396B;
+    font-size: 18px;
 }
 
-#bday {
+.section-1 a {
+    color: #ff9933;
+}
+
+.section-1 img {
+    height: 270px;
+}
+
+.section-1 .card {
+    width: 18rem;
+}
+
+#billing {
+    font-size: 18px;
+}
+
+#billing:hover {
+    color: #D3396B;
+    text-decoration: none;
+}
+
+#save {
+    background-color: #D3396B;
+    border-color: #D3396B;
     border-radius: 5px;
-    margin-left: 15px;
+    color: white;
 }
 
-#submit {
-    background-color: rgba(211, 57, 107, 1);
-    color: white;
-    width: 300px;
-}
 
 /*End of Section-1*/
 
@@ -106,3 +129,9 @@ footer .column a i+i {
 }
 
 /*End of Footer*/
+
+@media only screen and (min-width: 600px) {
+    .section-1 .card {
+        width: 18rem;
+    }
+}
