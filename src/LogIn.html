@@ -1,12 +1,11 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign Up - LUVBUG</title>
-    <link rel="stylesheet" href="../css/sign-up.css">
+    <title>Log In - LUVBUG</title>
+    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -57,56 +56,17 @@
 
     <main>
         <section class="section-1">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-md-12 text-center">
-                        <h1>JOIN NOW</h1>
+            <div class="container text-center">
+                <h1>LOG IN</h1>
+                <div class="row">
+                    <div class="col-12">
+                        <p><input type="text" placeholder=" Email" id="email"></p>
+                        <p><input type="password" placeholder=" Password" id="pw"></p>
+                        <p><input type="submit" value="LOG IN" id="login"></p>
+                        <p><a href="ForgotPassword.html">Forgot Password?</a></p>
+                        <p><a href="ResetPassword.html">Reset Password</a></p>
                     </div>
                 </div>
-                <form>
-                    <div class="form-group row">
-                        <label for="firstName" class="col-sm-4 col-3 col-form-label text-right">First Name:</label>
-                        <div class="col-sm-6 col-8">
-                            <input type="text" class="form-control" id="firstName">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="lastName" class="col-sm-4 col-3 col-form-label text-right">Last Name:</label>
-                        <div class="col-sm-6 col-8">
-                            <input type="text" class="form-control" id="lastName">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="email" class="col-sm-4 col-3 col-form-label text-right">Email:</label>
-                        <div class="col-sm-6 col-8">
-                            <input type="email" class="form-control" id="email">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="pw" class="col-sm-4 col-3 col-form-label text-right">Birthdate: </label>
-                        <input type="date" name="bday" id="bday" min="1930-12-31">
-                    </div>
-                    <div class="form-group row">
-                        <label for="pw" class="col-sm-4 col-3 col-form-label text-right">Password:</label>
-                        <div class="col-sm-6 col-8">
-                            <input type="password" class="form-control" id="pw">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="cpw" class="col-sm-4 col-3 col-form-label text-right">Confirm Password:</label>
-                        <div class="col-sm-6 col-8">
-                            <input type="password" class="form-control" id="cpw">
-                        </div>
-                    </div>
-                    <div class="form-group row justify-content-center">
-                        <div class="col-md-4 col-sm-6 col-6 text-center">
-                            <input type="submit" class="form-control" id="submit">
-                        </div>
-                    </div>
-
-                </form>
-            </div>
-            </div>
             </div>
         </section>
     </main>
